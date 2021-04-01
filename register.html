@@ -103,26 +103,17 @@
                       <input class="form-check-input" type="radio" name="Genre" id="genre3" value="Autre" />
                       <label class="form-check-label" for="genre3"> Autre </label>
                     </div>
+                    <p id="genreerror" style="visibility: hidden; color: red">Genre non selectionné</p>
+                    <label for="Ville">Ville:</label>
+                    <select name="Ville" id="Ville">
+                      <option value="1">Trois-Rivières</option>
+                      <option value="2">Shawinigan</option>
+                      <option value="3">Yamachiche</option>
+                      <option value="4">LouiseVille</option>
+                      <option value="5">La Tuque</option>
+                    </select>
 
-                    <div class="dropdown">
-                      <button
-                        class="btn btn-secondary dropdown-toggle"
-                        type="button"
-                        id="Ville"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Ville
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="Ville">
-                        <a class="dropdown-item" href="#">Trois-Rivières</a>
-                        <a class="dropdown-item" href="#">Shawinigan</a>
-                        <a class="dropdown-item" href="#">Yamachiche</a>
-                        <a class="dropdown-item" href="#">LouiseVille</a>
-                        <a class="dropdown-item" href="#">La Tuque</a>
-                      </div>
-                    </div>
+                    <p id="villeerror" style="visibility: hidden; color: red">Ville non selectionné</p>
 
                     <button type="button" class="btn btn-primary" widh="100px" onclick="incription();">Incription</button>
                   </div>
