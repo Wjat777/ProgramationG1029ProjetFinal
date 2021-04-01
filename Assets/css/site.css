@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+}
+#containerBanniere {
+  background-image: url("../img/accueil1.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#containerBanniereRecettes {
+  background-image: url("../img/produit1.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#containerBanniereRegistre {
+  background-image: url("../img/produit2.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#containerBanniereLogin {
+  background-image: url("../img/produit3.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#containerBanniereContact {
+  background-image: url("../img/contact.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.introduction {
+  background-color: bisque;
+  margin: 4rem 0rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.textbaniere1 {
+  color: gold;
+  text-shadow: 3px 3px black;
+}
+.textbaniere2 {
+  color: gold;
+  text-shadow: 3px 3px black;
+  padding-bottom: 15%;
+}
+
+/* Flaired edges */
+/* source https://www.formget.com/css-hr/*/
+hr.style-three {
+  height: 30px;
+  border-style: solid;
+  border-color: wheat;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr.style-three:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: green;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+.ausujet {
+  background-color: bisque;
+}

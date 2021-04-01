@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Techniques de programmation WEB 1-->
+  <!--Projet Final-->
+  <!--William John Adam Trindade-->
+  <!--2021-03-31-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Charcuterie em Casa</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Assets/css/site.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://kit.fontawesome.com/23ca1c8c45.js" crossorigin="anonymous"></script>
+
+    <script src="Assets/js/projetfinal.js"></script>
+  </head>
+
+  <body>
+    <!-- PARTIE 1 : Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html"><i class="fas fa-home"></i>Accueil</a>
+          <a class="nav-item nav-link active" href="#"><i class="fas fa-hotdog"></i>Recettes</a>
+          <a class="nav-item nav-link" href="contact.html"><i class="fas fa-envelope"></i>Contact</a>
+          <a class="nav-item nav-link" href="login.html"><i class="fas fa-user"></i>Entrer</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PARTIE 2 : BANNIÈRE -->
+    <section>
+      <div class="container" id="containerBanniereRegistre">
+        <div class="row">
+          <div class="col-lg-12 align-middle text-center">
+            <h1 class="textbaniere1">Charcuterie em Casa</h1>
+            <h2 class="textbaniere2">Recettes</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="style-three" />
+    <!-- PARTIE 3 : Introduction -->
+    <section>
+      <div class="introduction" id="intro">
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-8 align-middle">
+            <h1>Jambom maison</h1>
+            <h3>INGRÉDIENTS</h3>
+
+            <form>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <label for="viande1">Entrer la quantité de viande de porc maigre en Kg</label>
+                    <input type="number" class="form-control" id="viande1" />
+                    <button type="button" class="btn btn-primary" widh="100px" onclick="recalculateRecette1();">Recalculer</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <ul>
+              <li><span id="rec1Sel">0</span>g de sel(2,1%)</li>
+              <li><span id="rec1SelCure">0</span> g de sel de cure #1 (nitrite) (0,25%)</li>
+              <li><span id="rec1Antiox">0</span> g d'antioxidant (ascorbate de sodium) (0,3%)</li>
+              <li><span id="rec1Poivre">0</span> g de poivre noir fraichment moulu</li>
+              <li><span id="rec1Muscade">0</span> g de muscade rapé très fin</li>
+              <li><span id="rec1Ail">0</span> g d'ail en poudre</li>
+              <li><span id="rec1Chili">0</span> g de piment chile ou spelette</li>
+              <li><span id="rec1Eau">0</span> % d'eau froid</li>
+            </ul>
+            <h3>PRÉPARATION</h3>
+            <p></p>
+            <ol>
+              <li>Couper la viande em petites cubes aprox. 5mm</li>
+              <li>Melager avec les autres ingredients secs</li>
+              <li>Laisser reposer dans le refrigerateur pour 1 heure</li>
+              <li>Ajouter l'eau</li>
+              <li>Bien melanger la viande pendent 20min. Vou pouvez utiliser un robot culinaire em basse vitesse</li>
+              <li>Metre dans une moule pour Jambon</li>
+              <li>Cuir en l'eau jusqu'à la temperature interne ateint 72ºC</li>
+              <li>Mettre dans le refrigerateur pour 24 heures</li>
+              <li>Retirer de la moule est c'est prêt</li>
+            </ol>
+            <p>Note: C'est valide pour 1 mois refrigeré</p>
+          </div>
+          <div class="col-lg-2"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
